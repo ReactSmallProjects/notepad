@@ -11,7 +11,7 @@
 .bigdiv{
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 23px;
+    margin-top: 10%;
 }
 .head{
     background-color: rgb(176, 174, 174);
@@ -20,4 +20,9 @@
     font-weight: bold;
     height: 33px;
    margin: 0px 0px;
+}
+.settingFont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
