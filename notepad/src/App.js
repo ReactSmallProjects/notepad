@@ -1,7 +1,6 @@
 
 
 import Navbar from './Navbar';
-import Text from './text';
 function App() {
   return (
     <div className="App">
@@ -9,9 +8,6 @@ function App() {
         <Navbar />
         
       </header>
-      <div>
-        <Text />
-      </div>
     </div>
   );
 }

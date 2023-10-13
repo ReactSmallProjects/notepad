@@ -1,12 +1,19 @@
+import React from 'react';
+import './text.css';
 
-import './text.css'
-function Text()
-{
-    return (
-        <div>
-            <div></div>
-            <textarea   type="text" name="notes" />
-        </div>
-    )
+function Text(props) {
+  const { fontSize } = props;
+
+  const textareaStyle = {
+    fontSize: `${fontSize}px`
+  };
+
+  return (
+    <div>
+      <div></div>
+      <textarea style={textareaStyle} type="text" name="notes" />
+    </div>
+  );
 }
+
 export default Text;
